@@ -10,33 +10,62 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">LIS 636 Website</div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="indexAboutMe.html">About</a></li>
-                <li><a href="indexMyWorks.html">My Works</a></li>
-                <li><a href="indexResume.html">Resume</a></li>
-                <li><a href="indexContact.html">Contact</a></li>
+    <!-- Navbar -->
+    <nav>
+            <h1>LAUREN PEARSON</h1>
+            <ul class="navigation">
+              <li><a href="index.html">About</a></li>
+              <li><a href="indexMyWorks.html">My Works</a></li>
+              <li><a href="indexResume.html">Resume</a></li>
+              <li><a href="indexContact.html">Contact</a></li>
             </ul>
-        </div>
-    </nav>
-    <hr>
+            <button class="burger-menu" id="burger-menu">
+              <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+        <!-- Contact section -->
+        <form 
+          name="contact" method="POST" data-netlify="true" onsubmit="submit">
 
+          <div class="container">
+            <div class="content">
+              <div class="left-side">
+                <div class="email details">
+                  <i class="fas fa-envelope"></i>
+                </div>
+              </div>
+              <div class="right-side">
+                <div class="topic-text">Send me a message</div>
+                <p>If you have any for me about my resume or any types of quries related to my portfolio, you can send me message from here.</p>
+              <form action="#">
+                <div class="input-box">
+                  <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="input-box">
+                  <input type="text" placeholder="Enter your email">
+                </div>
+                <div class="input-box message-box">
+                  <input type="text" placeholder="Enter your message">
 
-
-
+                </div>
+                <div class="button">
+                  <input type="button" value="Send Now" >
+                </div>
+              </form>
+            </div>
+            </div>
+          </div>
+        </form>
+          <hr>
     <footer class="footer">
         <div class="container">
-            <p>LIS 636 Website</p>
+            <p>Lauren Pearson</p>
             <p>Copyright &copy; 2023</p>
+
         </div>
         <div class="socialMedia">
-            <a href="#"><i class="fab fa-github fa-2x"></i></a>
-            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-            <a href="#"><i class="fab fa-twitter fa-2x"></i></a> 
+            <a href="https://www.linkedin.com/in/lauren-pearson-b0b67a299"><i class="fab fa-linkedin fa-2x"></i></a> 
+            <a href="https://github.com/Lauren-Pearson1/Lauren_Pearson1"><i class="fab fa-github fa-2x"></i></a>
         </div>
     </footer>
 </body>
